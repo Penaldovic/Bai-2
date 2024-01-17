@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+
+<style>
+    table, th, td {
+    border: 1px solid #ddd;
+    }
+    th, td {
+    padding: 10px;
+    }
+</style>
+
+<html lang = 'vi'>
+    <head>
+        <title> Lesson 2</title>
+    </head>
+    <body>
+        
+        <h1><b> Câu 1 : Bài tập về thẻ Audio </b></h1>
+        <p> <b> Yêu cầu </b> : Tạo thư mục đặt tên là videos, sau đó để video bất kỳ vào thư mục videos đó. Tiếp theo, chèn video đó vào trang web bằng cách sử dụng thẻ video và thẻ source. Đường dẫn video là dạng relative (Đường dẫn tương đối). Đặt kích thước video có width bằng 720 và height bằng 405 (tương đương tỷ lệ 16/9).</p>
+        <video width = '720' height = '405' controls> <source src = 'video-1.mp4' type = 'video/mp4'> </video>
+
+
+
+        <h1><b> Câu 2 : Bài tập về thẻ Table </b></h1>
+        <p><b> Yêu cầu </b> : Dùng thẻ table, thead, tbody, tr, th, td đã được học để vẽ bảng sau: </p>
+        <table style="width: 50%;height:400px">
+            <thead>
+                <tr>
+                    <th colspan = '3'> Hóa đơn số 1234 </th>
+                    <th> Ngày 20/11/2022 </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan = '2' rowspan = '2'> 
+                        Thông tin khách hàng
+                        Họ tên: Đặng Phương Nam
+                        Số điện thoại: 0123456789
+                        Địa chỉ: số 123, đường Abc, thành phố Hà Nội.
+                    </td>
+                    <td colspan = '2' rowspan = '2'>
+                        Thông tin vận chuyển đơn hàng
+                        Họ tên: Đặng Phương Nam
+                        Số điện thoại: 0987654321
+                        Địa chỉ: số 234, đường Xyz, thành phố Hà Nội
+                    </td>
+                </tr>
+                <tr>
+                    </tr>
+                <tr> 
+                    <td> Tên sản phẩm </td>
+                    <td> Số lượng </td>
+                    <td> Đơn giá </td>
+                    <td> Thành tiền </td>
+                </tr>
+                <tr>
+                    <td> Giày nam cao cấp </td>
+                    <td> 2 </td>
+                    <td> 800.000đ </td>
+                    <td> 1.600.000đ </td>
+                </tr>
+                <tr>
+                    <td> Giày nữ cao cấp </td>
+                    <td> 2 </td>
+                    <td> 500.000đ </td>
+                    <td> 1.000.000đ </td>
+                </tr>
+                <tr>
+                    <td colspan = '3'><b> Tạm tính </b></td>
+                    <td> 2.600.000đ </td>
+                </tr>
+                <tr> 
+                    <td colspan = '3'><b> Thuế VAT 10% </b></td>
+                    <td> 260.000đ </td>
+                </tr>
+                <tr>
+                    <td colspan = '3'><b> Thành tiền </b></td>
+                    <td> 2.860.000đ </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h1><b> Câu 3 : Bài tập về thẻ ul,ol,li </b></h1>
+
+        <b> Yêu cầu 1 : Tạo danh sách sau sử dụng thẻ ul, li </b><ul>
+            <li> Facebook </li>
+            <li> Twitter </li>
+            <li> Instagram </li>
+            <li> Youtube </li>
+        </ul>
+
+        <b> Yêu cầu 2 : Tạo danh sách sau sử dụng thẻ ol, li </b><ol type = '1'>
+            <li> Thời trang </li>
+            <li> Công nghệ </li>
+            <li> Đồ điện tử </li>
+            <li> Đồ gia dụng </li>
+        </ol>
+
+        <b> Yêu cầu 3 : Tạo danh sách sau sử dụng thẻ ol, li. Có kiểu là chữ La mã viết hoa </b><ol type = 'I'>
+            <li> Học HTML 5 </li>
+            <li> Học CSS 3 </li>
+            <li> Học Bootstrap 4 </li>
+            <li> Học Javascript </li>
+        </ol>
+        
+        <b> Yêu cầu 4 : Tạo danh sách sau sử dụng thẻ ul, li </b><ul>
+            <li> Cars </li><ul> 
+                <li> BMW </li><ul>
+                    <li> BMW X5 </li>
+                    <li> BMW X7 </li>
+                    <li> BMW Z4 </li>
+                    <li> BMW M2 </li>
+                </ul>
+                <li> Audi </li><ul>
+                    <li> Audi Q8 </li>
+                    <li> Audi Q7 2020 </li>
+                    <li> Audi Q3 </li>
+                    <li> Audi A7 </li>
+                </ul>
+                <li> Mercedes </li>
+                <li> Jaguar </li><ul>
+                    <li> Jaguar XF </li>
+                    <li> Jaguar XE </li>
+                    <li> Jaguar E Pace </li>
+                    <li> Jaguar I Pace </li> 
+                </ul>
+                <li> Lamborghini </li>
+            </ul>
+            <li> Bikes </li><ul>
+                <li> Apache </li>
+                <li> KTM </li>
+                <li> R15 </li>
+                <li> Ducati </li>
+                <li> Harley - Davidson </li>
+            </ul>
+            <li> Aeroplanes </li><ul>
+                <li> Air India </li>
+                <li> Indigo </li>
+                <li> Vistara </li>
+                <li> GoAir </li>
+                <li> SpiceJet </li>
+            </ul>
+            <li> Trains </li>
+            <li> Ships </li>
+        </ul>
+
+    <b> Yêu cầu 5 : Tạo danh sách sau sử dụng thẻ ol, li </b><ol type = 'I'>
+        <li> Background Skills </li><ol type = 'A'>
+            <li> Unix Commands </li>
+            <li> Vim Test Editors </li>
+        </ol>
+        <li> HTML </li><ol type = 'A'>
+            <li> Minimal Page </li>
+            <li> Headings </li>
+            <li> Elements </li>
+            <li> Lists </li><ol type = 'i'>
+                <li> Unordered </li>
+                <li> Ordered </li>
+                <li> Definition </li>
+                <li> Nested </li>
+            </ol>
+            <li> Links </li><ol type = 'i'>
+                <li> Absolute </li>
+                <li> Relative </li>
+            </ol>
+            <li> Images </li>
+        </ol>
+        <li> CSS </li><ol type = 'A'>
+            <li> Anatomy </li>
+            <li> Basic Selectors </li><ol type = 'i'>
+                <li> Element </li>
+                <li> Class </li>
+                <li> ID </li>
+                <li> Group </li>
+            </ol>
+            <li> The DOM </li>
+            <li> Advanced Selectors </li>
+            <li> Box Model </li>
+        </ol>
+        <li> Programming </li><ol type = 'A'>
+            <li> Python </li>
+            <li> Javascript </li>
+        </ol>
+        <li> Database </li><ol type = 'A'>
+            <li> Flat File </li>
+            <li> Relational </li>
+        </ol>
+    </ol>
+
+    <h2> II. Tourist Payment </h2>
+
+    <form action = 'https://w3schools.com/action_page.php' target = "_blank" autocomplete = 'off' method = 'GET'> 
+        <label for = 'name'> Name : </label>
+        <br>
+        <input type = 'text' name = 'name' id = 'name'>
+        <br>
+        <br>
+
+        <label for = 'phone'> Phone number : </label>
+        <br>
+        <input type = 'number' name = 'phone' id = 'phone'>
+        <br>
+        <br>
+        
+        <label for = 'tgian'> Favourite time : </label>
+        <br>
+        <select name = 'tgian' id = 'tgian'> 
+            <option value = '06:00'> Morning </option>
+            <option value = 'black'> Afternoon </option>
+            <option value = 'white'> Evening </option>
+        </select>
+        
+        <br>
+        <br>
+
+        <label for = 'choose_date'> Day : </label>
+        <br>
+        <input type = 'date' name = 'choose_date' id = 'choose_date'> 
+        <br>
+        <br>
+        
+        <label for = 'choose_time'> Time departure : </label>
+        <br>
+        <input type = 'time' name = 'choose_time' id = 'choose_time'>
+        <br>
+        <br>
+
+        <label for = 'up_file'> Upload file : </label>
+        <br>
+        <input type = 'file' name = 'up_file' id = 'up_file'>
+        <br>
+        <br>
+        
+        <p> Choose an arrival city : </p>
+        <input type = 'radio' name = 'city' value = 'Hanoi' id = 'hanoi'>
+        <label for = 'hanoi'> Hanoi </label>
+        <br>
+
+        <input type = 'radio' name = 'city' value = 'Danang' id = 'danang'>
+        <label for = 'hanoi'> Danang </label>
+        <br>
+
+        <input type = 'radio' name = 'city' value = 'HCMCity' id = 'HCMC'>
+        <label for = 'HCMC'> Ho Chi Minh City </label>
+        <br>
+        <br>
+
+        
+        <button> Send </button>
+    </form> 
+    <br> <br>
+    <form action="https://google.com/search?q=" method="get" target = '_blank' autocomplete = 'off' method = 'GET'>
+        <label for = 'search'> Google : </label>
+        <br>
+        <input type = 'text'>
+        <button> Search </button>
+    </form>
+
+    </body>
+</html>
